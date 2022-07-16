@@ -43,7 +43,7 @@
             });
 
         const deleteElement = document.querySelector("#delete");
-        const deleteURL = "http://localhost:3000/employees/6";
+        const deleteURL = "http://localhost:3000/employees/7";
         makePromiseCall("DELETE", deleteURL, false)
             .then(responseText => {
                 deleteElement.textContent = "Delete User Data :" + responseText;
